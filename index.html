@@ -5,15 +5,28 @@
 	<link rel="stylesheet" href="stylesheet.css">
 	<script type="text/javascript" src="main.js"></script>
 	<title>The Flip Side</title>
-	<header>The Flip Side</header>
 </head>
 <body>
-	<div class="masthead">
+	<header class="siteHeader">
+		<nav>
+			<ul class="siteHeader">
+				<li class="inline"><a href="#">Home</a></li>
+				<li class="inline"><a href="#subscribe">Subscribe</a></li>
+				<li class="inline"><a href="#about">About</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="siteWidth">
 		<h1>Welcome to the FlipSide!</h1>
-		<img src="assets/flipside-full-logo.png">
+		<img width=442 class="margin-auto" src="assets/flipside-full-logo.png">
 	</div>
-	<div class="subscribe">
-		<form id="subscribeform">
+	<div class="subscribeForm siteWidth">
+		<div class="description">
+			<p><strong>Take back control of your news from social media.</strong></p>
+			<p>Every day, our determined editorial team combs through dozens of sources – left, right, and center – so you don’t have to.</p>
+			<p>Burst your media bubble one 5-minute read at a time.</p>
+		</div>
+		<form id="subscribe">
 			<label>Enter your Political Leaning <br/>
 				Conservative-Leaning 
 				<input type="radio" name="politicalleaning" value="cons" /> <br>
@@ -26,5 +39,12 @@
 			</label>
 		</form>
 	</div>
+	<footer class="siteFooter">
+		<ul>
+			<li class="inline">Contact Us</li>
+			<li class="inline">Built By</li>
+		</ul>
+		<a href="#"><img width=275 class="margin-auto" src="assets/flipside-full-logo.png" /></a>
+	</footer>
 </body>
 </html>

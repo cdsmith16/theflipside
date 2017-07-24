@@ -1,11 +1,15 @@
 var execute = function() {
-    subscribeform = document.getElementById("subscribeform");
+    subscribeform = document.getElementById("subscribe");
     subscribeform.addEventListener("submit", submitsubscribe);
     // Handler when the DOM is fully loaded
 
     //hoisting variables
     var user;
     var signupform;
+
+    if(localStorage.hasOwnProperty("useremail") && localStorage.hasOwnProperty("userpoliticalleaning")){
+    	console.log(`On refresh, your name is still ${localStorage.useremail} and you lean ${localStorage.userpoliticalleaning}!`);
+    }
 };
 
 function submitsubscribe(event) {
