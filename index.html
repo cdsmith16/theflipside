@@ -9,42 +9,57 @@
 <body>
 	<header class="siteHeader">
 		<nav>
-			<ul class="siteHeader">
+			<ul>
 				<li class="inline"><a href="#">Home</a></li>
 				<li class="inline"><a href="#subscribe">Subscribe</a></li>
-				<li class="inline"><a href="#about">About</a></li>
+				<li class="inline"><a href="#about">Our Mission</a></li>
+				<li class="inline"><a href="#about">About the Founder</a></li>
 			</ul>
 		</nav>
 	</header>
-	<div class="siteWidth">
-		<h1>Welcome to the FlipSide!</h1>
+	<div class="siteWidth" id="welcome">
+		<a href="#welcome"><h1>Welcome to the FlipSide!</h1></a>
 		<img width=442 class="margin-auto" src="assets/flipside-full-logo.png">
 	</div>
-	<div class="subscribeForm siteWidth">
-		<div class="description">
-			<p><strong>Take back control of your news from social media.</strong></p>
-			<p>Every day, our determined editorial team combs through dozens of sources – left, right, and center – so you don’t have to.</p>
-			<p>Burst your media bubble one 5-minute read at a time.</p>
-		</div>
-		<form id="subscribe">
-			<label>Enter your Political Leaning <br/>
-				Conservative-Leaning 
-				<input type="radio" name="politicalleaning" value="cons" /> <br>
-				Liberal-Leaning 
-				<input type="radio" name="politicalleaning" value="lib" /> <br>
-				Choosing Not to Say 
-  				<input type="radio" name="politicalleaning" value="mod" checked/> <br>
-				<input type="email" name="emailaddress" placeholder="Email" required />
-				<input type="submit" value="Subscribe to list" />
-			</label>
+	<!--Home section-->
+	<div class="siteWidth" id="home">
+		<h2>Take back control of your news from social media.</h2>
+		<p>Every day, our determined editorial team combs through dozens of sources – left, right, and center – so you don’t have to.</p>
+		<p>Burst your media bubble one 5-minute read at a time.</p>
+	</div>
+	<!--Our Mission section-->
+	<div class="siteWidth" id="mission">
+		<a href="#mission"><h1>Our Mission</h1></a> <br>
+		<p>The Flip Side is on a mission to do the impossible – give you nuanced arguments from both sides of the political aisle without your eyes glazing over.</p>
+	 
+		<p>We’re a one-stop shop for smart, concise summaries of political analysis from the two sides. Our goal is to become a news source for liberals, moderates, independents, conservatives, and even the apolitical.</p>
+	 
+		<p>It’s hard to convince liberals to watch Fox or conservatives to watch MSNBC. But, if everyone takes 5 minutes a day to read The Flip Side, we’ll have a starting point when talking to our friends and neighbors.</p>
+	</div>
+	<!--Subscribe to Flip Side section-->
+	<div class="subscribe siteWidth">
+		<a href="#subscribe"><h1>Enter your Political Leaning</h1></a> <br/>
+		<form id="subscribeForm">
+			<label class="inline">Conservative-Leaning</label>
+			<input type="radio" name="politicalleaning" value="cons" />
+			<label class="inline">Liberal-Leaning</label>
+			<input type="radio" name="politicalleaning" value="lib" />
+			<label class="inline">Choosing Not to Say</label>
+			<input  type="radio" name="politicalleaning" value="mod" checked/> <br>
+			<input class="inline" type="email" name="emailaddress" placeholder="Email" required />
+			<input class="inline" type="submit" value="Subscribe to list" />
 		</form>
 	</div>
+	<!--Contact Us section-->
+	<!--About the Founder-->
+	<div class="siteWidth"></div>
+	<!--FAQ-->
 	<footer class="siteFooter">
 		<ul>
-			<li class="inline">Contact Us</li>
-			<li class="inline">Built By</li>
+			<li class="inline"><a href="">Contact Us</a></li>
+			<li class="inline"><a href="">Built By</a></li>
 		</ul>
-		<a href="#"><img width=275 class="margin-auto" src="assets/flipside-full-logo.png" /></a>
+		<a href="#" class="inline"><img height=125 src="assets/flipside-footer-logo.png" /></a>
 	</footer>
 </body>
 </html>

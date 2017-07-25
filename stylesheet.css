@@ -1,3 +1,5 @@
+/*Set baseline constraints for full site and anchors.*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,32 +19,83 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: sans-serif;
+}
+
+a, a:visited {
+	text-decoration: none ;
+	color: #0002CC;
+}
+
+a:hover {
+	color: #CC0001;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+/*Give headers and text from site components shared look & feel.*/
+
+h1, header, footer {
+	font-size: 160%;
+	padding: 5px;
+}
+
+h2, input[type="email"],input[type="submit"] {
+	font-size: 125%;
+	padding: 5px;
+}
+
+h3,label {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+p {
+	padding: 5px;
+	font-family: serif;
+	font-size: 110%;
+}
+
+header nav {
+	float: left;
+	margin-left: 20px;
+	display: inline;
 }
 
 li.inline, ul.inline li {
-    display: inline-block;
+    padding-right: 5px;
 }
 
-header nav ul li {
-    display: inline;
-    vertical-align: top;
+.inline {
+	vertical-align: baseline;
+	display: inline-block;
 }
+
+/*Define overarching section stylings.*/
 
 .siteHeader {
+    background-color: #D7E1F2;
 	min-width: 1140px;
-    padding: 20px 0 50px;
+    padding: 20px 0 20px;
     text-align: center;
+    font-weight: bold;
+    height: 80px;
 }
 
 .siteFooter {
     min-width: 1140px;
     padding: 50px 0 50px;
     text-align: center;
+    background-color: #D7E1F2;
+    display: inline-block;
 }
 
 .siteWidth {
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 50px;
+    /*min-width: 1140px;*/
     width: 1000px;
     padding: 0 50px;
     text-align: center;
+    text-overflow: auto;
 }

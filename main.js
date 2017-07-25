@@ -1,5 +1,5 @@
 var execute = function() {
-    subscribeform = document.getElementById("subscribe");
+    subscribeform = document.getElementById("subscribeForm");
     subscribeform.addEventListener("submit", submitsubscribe);
     // Handler when the DOM is fully loaded
 
