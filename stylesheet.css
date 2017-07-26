@@ -79,6 +79,11 @@ li.inline, ul.inline li {
 	display: inline-block;
 }
 
+#founder img{
+	display: inline-block;
+	float: right;
+}
+
 /*Define overarching section stylings.*/
 
 .siteHeader {
