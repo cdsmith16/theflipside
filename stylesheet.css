@@ -58,10 +58,26 @@ h3,label {
 	font-weight: bold;
 }
 
+h4 {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 60%;
+	font-weight: bold;
+}
+
 p {
 	padding: 5px;
 	font-family: serif;
 	font-size: 110%;
+	opacity: .9;
 }
 
 header nav {
@@ -120,4 +136,19 @@ li.inline, ul.inline li {
     padding: 0 50px;
     text-align: center;
     text-overflow: auto;
+}
+
+.faqWidth {
+    margin: auto;
+    margin-top: 50px;
+    /*min-width: 1140px;*/
+    width: 1000px;
+    padding: 0 50px;
+    text-align: left;
+    text-overflow: auto;
+}
+
+.faqWidth ol,ul{
+    font-family: serif;
+    padding-left: 25px;
 }
