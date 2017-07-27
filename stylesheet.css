@@ -110,7 +110,7 @@ li.inline, ul.inline li {
     padding: 20px 0 20px;
     text-align: center;
     font-weight: bold;
-    height: 80px;
+    height: 60px;
 }
 
 .siteHeader ul,ol {
@@ -145,7 +145,8 @@ li.inline, ul.inline li {
 
 .faqWidth {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     /*min-width: 1140px;*/
     width: 1000px;
     padding: 0 50px;
