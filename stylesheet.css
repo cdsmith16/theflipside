@@ -67,6 +67,7 @@ p {
 header nav {
 	float: left;
 	margin-left: 20px;
+	margin-right: 20px;
 	display: inline;
 }
 
@@ -77,6 +78,11 @@ li.inline, ul.inline li {
 .inline {
 	vertical-align: baseline;
 	display: inline-block;
+}
+
+.social {
+	float: right;
+	display: inline;
 }
 
 #founder span p{
