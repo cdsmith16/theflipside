@@ -34,12 +34,6 @@ a, a:visited {
 	color: #0002CC;
 }
 
-a:hover {
-	color: #CC0001;
-    text-decoration:none;
-    cursor:pointer;
-}
-
 /*Give headers and text from site components shared look & feel.*/
 
 h1, header, footer {
@@ -123,10 +117,16 @@ li.inline, ul.inline li {
 	list-style: none;
 }
 
+.siteHeader a:hover {
+	color: #CC0001;
+    text-decoration:none;
+    cursor:pointer;
+}
+
 .siteFooter {
     /*min-width: 1140px;*/
     width: 100%;
-    padding: 50px 0 50px;
+    padding: 25px 0 50px;
     text-align: center;
     background-color: #D7E1F2;
     display: inline-block;
@@ -134,7 +134,8 @@ li.inline, ul.inline li {
 
 .siteWidth {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     /*min-width: 1140px;*/
     width: 1000px;
     padding: 0 50px;

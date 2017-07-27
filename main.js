@@ -19,7 +19,7 @@ function submitsubscribe(event) {
     var userpoliticalleaning = this.politicalleaning.value;
     localStorage.setItem("useremail", useremail);
     localStorage.setItem("userpoliticalleaning",userpoliticalleaning);
-    alert(`It looks like your name is ${useremail} and you lean ${userpoliticalleaning}!`);
+    alert(`Welcome to The Flip Side, ${useremail}!`);
     return false;
 }
 

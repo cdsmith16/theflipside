@@ -40,14 +40,19 @@
     <!--Subscribe to Flip Side section-->
     <div class="siteWidth" id="subscribe">
         <a href="#subscribe"><h1>Enter your Political Leaning</h1></a>
-        <br/>
         <form id="subscribeForm">
-            <label class="inline">Conservative-Leaning</label>
-            <input type="radio" name="politicalleaning" value="cons" />
-            <label class="inline">Liberal-Leaning</label>
-            <input type="radio" name="politicalleaning" value="lib" />
-            <label class="inline">Choosing Not to Say</label>
-            <input type="radio" name="politicalleaning" value="mod" checked/>
+            <div class="radiobutton">
+                <input id="consbutton" type="radio" name="politicalleaning" value="cons" />
+                <label for="consbutton">Conservative-Leaning</label>
+            </div>
+            <div class="radiobutton">
+                <input id="libbutton" type="radio" name="politicalleaning" value="lib" />
+                <label for="libbutton">Liberal-Leaning</label>
+            </div>
+            <div class="radiobutton">
+                <input id="modbutton" type="radio" name="politicalleaning" value="mod" checked/>
+                <label for="modbutton">Choosing Not to Say</label>
+            </div>
             <br>
             <input class="inline" type="email" name="emailaddress" placeholder="Email" required />
             <input class="inline" type="submit" value="Subscribe to list" />
@@ -73,8 +78,9 @@
 			<p>In the months following the election as talk of fake news and media bias became commonplace, Annafi asked herself a simple question: how can the average person escape their media bubble without disrupting their daily routine? Few people have the time or desire to read 20 op­eds a day...</p>
 		</span>
     </div>
+    <br>
     <!--Contact Us section-->
-    <footer class="siteFooter">
+    <div class="siteFooter"><footer>
         <ul>
             <li class="inline">
                 <a href="#"><img height=60 src="assets/flipside-footer-logo.png" /></a>
@@ -98,7 +104,7 @@
         </ul>
         <h6>Questions / comments / press inquiries? Send us a note at <a href="mailto:editor@theflipside.io">editor@theflipside.io</a></h6>
         <h6>Copyright © 2017 <a href="https://github.com/csmooth/theflipside">TheFlipSide</a></h6>
-    </footer>
+    </footer></div>
 </body>
 
 </html>
