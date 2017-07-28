@@ -3,7 +3,7 @@
 
 ![The Flip Side](https://csmooth.github.io/theflipside/assets/flipside-full-logo.png)
 
-The Flip Side is a daily production by Annafi Wahed in which authors from liberal and conservative backgrounds read the news and report back from both perspectives. The production currently exists as an email newsletter, and Annafi is looking to port over subscriptions from the default Mailchimp site. As of July 2017, the site is built with plain html, css and javascript. The site is live on [Github Pages](https://csmooth.github.io/theflipside/index.html#).
+The Flip Side is a daily production by Annafi Wahed in which authors from liberal and conservative backgrounds read the news and report back from both perspectives. The production currently exists as an email newsletter, and Annafi is looking to port over subscriptions from the default Mailchimp site. As of July 2017, the site is built with plain html, css and javascript. Logo and banner assets designed by consultant of the Editor's. The site is live on [Github Pages](https://csmooth.github.io/theflipside/index.html#).
 
 Remaining To-Do's:
 - Connect MailChimp to Subscribe Form
